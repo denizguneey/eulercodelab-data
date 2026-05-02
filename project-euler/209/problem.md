@@ -1,0 +1,11 @@
+# Problem 209: Circular Logic
+
+A $k$-input **binary truth table** is a map from $k$ input bits (binary digits, $0$ \[false\] or $1$ \[true\]) to $1$ output bit. For example, the $2$-input binary truth tables for the logical $\\mathbin{\\text{AND}}$ and $\\mathbin{\\text{XOR}}$ functions are:
+
+<table class="grid"><tbody><tr><th style="width:50px;">$x$</th><th style="width:50px;">$y$</th><th>$x \mathbin{\text{AND}} y$</th></tr><tr><td align="center">$0$</td><td align="center">$0$</td><td align="center">$0$</td></tr><tr><td align="center">$0$</td><td align="center">$1$</td><td align="center">$0$</td></tr><tr><td align="center">$1$</td><td align="center">$0$</td><td align="center">$0$</td></tr><tr><td align="center">$1$</td><td align="center">$1$</td><td align="center">$1$</td></tr></tbody></table>
+
+<table class="grid"><tbody><tr><th style="width:50px;">$x$</th><th style="width:50px;">$y$</th><th>$x\mathbin{\text{XOR}}y$</th></tr><tr><td align="center">$0$</td><td align="center">$0$</td><td align="center">$0$</td></tr><tr><td align="center">$0$</td><td align="center">$1$</td><td align="center">$1$</td></tr><tr><td align="center">$1$</td><td align="center">$0$</td><td align="center">$1$</td></tr><tr><td align="center">$1$</td><td align="center">$1$</td><td align="center">$0$</td></tr></tbody></table>
+
+  
+
+How many $6$-input binary truth tables, $\\tau$, satisfy the formula $$\\tau(a, b, c, d, e, f) \\mathbin{\\text{AND}} \\tau(b, c, d, e, f, a \\mathbin{\\text{XOR}} (b \\mathbin{\\text{AND}} c)) = 0$$ for all $6$-bit inputs $(a, b, c, d, e, f)$?

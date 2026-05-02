@@ -1,0 +1,7 @@
+# Problem 181: Grouping Two Different Coloured Objects
+
+Having three black objects B and one white object W they can be grouped in 7 ways like this:
+
+<table cellpadding="10" align="center"><tbody><tr><td>(BBBW)</td><td>(B,BBW)</td><td>(B,B,BW)</td><td>(B,B,B,W)</td><td>(B,BB,W)</td><td>(BBB,W)</td><td>(BB,BW)</td></tr></tbody></table>
+
+In how many ways can sixty black objects B and forty white objects W be thus grouped?
