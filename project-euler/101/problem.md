@@ -7,13 +7,13 @@ $u\_n = n^3$: $1, 8, 27, 64, 125, 216, \\dots$
 
 Suppose we were only given the first two terms of this sequence. Working on the principle that "simple is best" we should assume a linear relationship and predict the next term to be $15$ (common difference $7$). Even if we were presented with the first three terms, by the same principle of simplicity, a quadratic relationship should be assumed.
 
-We shall define $\\operatorname{OP}(k, n)$ to be the $n$<sup>th</sup> term of the optimum polynomial generating function for the first $k$ terms of a sequence. It should be clear that $\\operatorname{OP}(k, n)$ will accurately generate the terms of the sequence for $n \\le k$, and potentially the first incorrect term (FIT) will be $\\operatorname{OP}(k, k+1)$; in which case we shall call it a bad OP (BOP).
+We shall define $\\mathrm{OP}(k, n)$ to be the $n$<sup>th</sup> term of the optimum polynomial generating function for the first $k$ terms of a sequence. It should be clear that $\\mathrm{OP}(k, n)$ will accurately generate the terms of the sequence for $n \\le k$, and potentially the first incorrect term (FIT) will be $\\mathrm{OP}(k, k+1)$; in which case we shall call it a bad OP (BOP).
 
-As a basis, if we were only given the first term of sequence, it would be most sensible to assume constancy; that is, for $n \\ge 2$, $\\operatorname{OP}(1, n) = u\_1$.
+As a basis, if we were only given the first term of sequence, it would be most sensible to assume constancy; that is, for $n \\ge 2$, $\\mathrm{OP}(1, n) = u\_1$.
 
-Hence we obtain the following $\\operatorname{OP}$s for the cubic sequence:
+Hence we obtain the following $\\mathrm{OP}$s for the cubic sequence:
 
-<table><tbody><tr><td>$\operatorname{OP}(1, n) = 1$</td><td>$1, {\color{red}\mathbf 1}, 1, 1, \dots$</td></tr><tr><td>$\operatorname{OP}(2, n) = 7n - 6$</td><td>$1, 8, {\color{red}\mathbf{15}}, \dots$</td></tr><tr><td>$\operatorname{OP}(3, n) = 6n^2 - 11n + 6$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>$1, 8, 27, {\color{red}\mathbf{58}}, \dots$</td></tr><tr><td>$\operatorname{OP}(4, n) = n^3$</td><td>$1, 8, 27, 64, 125, \dots$</td></tr></tbody></table>
+<table><tbody><tr><td>$\mathrm{OP}(1, n) = 1$</td><td>$1, {\color{red}\mathbf 1}, 1, 1, \dots$</td></tr><tr><td>$\mathrm{OP}(2, n) = 7n - 6$</td><td>$1, 8, {\color{red}\mathbf{15}}, \dots$</td></tr><tr><td>$\mathrm{OP}(3, n) = 6n^2 - 11n + 6$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>$1, 8, 27, {\color{red}\mathbf{58}}, \dots$</td></tr><tr><td>$\mathrm{OP}(4, n) = n^3$</td><td>$1, 8, 27, 64, 125, \dots$</td></tr></tbody></table>
 
 Clearly no BOPs exist for $k \\ge 4$.
 

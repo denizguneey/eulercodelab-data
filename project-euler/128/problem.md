@@ -6,14 +6,14 @@ New rings are added in the same fashion, with the next rings being numbered $8$ 
 
 ![](./png/001.png)
 
-By finding the difference between tile $n$ and each of its six neighbours we shall define $\\operatorname{PD}(n)$ to be the number of those differences which are prime.
+By finding the difference between tile $n$ and each of its six neighbours we shall define $\\mathrm{PD}(n)$ to be the number of those differences which are prime.
 
-For example, working clockwise around tile $8$ the differences are $12, 29, 11, 6, 1$, and $13$. So $\\operatorname{PD}(8) = 3$.
+For example, working clockwise around tile $8$ the differences are $12, 29, 11, 6, 1$, and $13$. So $\\mathrm{PD}(8) = 3$.
 
-In the same way, the differences around tile $17$ are $1, 17, 16, 1, 11$, and $10$, hence $\\operatorname{PD}(17) = 2$.
+In the same way, the differences around tile $17$ are $1, 17, 16, 1, 11$, and $10$, hence $\\mathrm{PD}(17) = 2$.
 
-It can be shown that the maximum value of $\\operatorname{PD}(n)$ is $3$.
+It can be shown that the maximum value of $\\mathrm{PD}(n)$ is $3$.
 
-If all of the tiles for which $\\operatorname{PD}(n) = 3$ are listed in ascending order to form a sequence, the $10$th tile would be $271$.
+If all of the tiles for which $\\mathrm{PD}(n) = 3$ are listed in ascending order to form a sequence, the $10$th tile would be $271$.
 
 Find the $2000$th tile in this sequence.

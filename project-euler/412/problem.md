@@ -12,7 +12,7 @@ For example, here are two valid numberings of $L(5, 3)$:
 
 ![0412\_tablenums.png](./png/002.png)
 
-Let $\\operatorname{LC}(m, n)$ be the number of valid numberings of $L(m, n)$.  
-It can be verified that $\\operatorname{LC}(3, 0) = 42$, $\\operatorname{LC}(5, 3) = 250250$, $\\operatorname{LC}(6, 3) = 406029023400$ and $\\operatorname{LC}(10, 5) \\bmod 76543217 = 61251715$.
+Let $\\mathrm{LC}(m, n)$ be the number of valid numberings of $L(m, n)$.  
+It can be verified that $\\mathrm{LC}(3, 0) = 42$, $\\mathrm{LC}(5, 3) = 250250$, $\\mathrm{LC}(6, 3) = 406029023400$ and $\\mathrm{LC}(10, 5) \\bmod 76543217 = 61251715$.
 
-Find $\\operatorname{LC}(10000, 5000) \\bmod 76543217$.
+Find $\\mathrm{LC}(10000, 5000) \\bmod 76543217$.

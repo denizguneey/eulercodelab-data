@@ -7,9 +7,9 @@ $S\_0 = 290797$
 $S\_{n + 1} = S\_n^2 \\bmod 50515093$  
 $T\_n = S\_n \\bmod p$
 
-Let $\\operatorname{Nfac}(p, q)$ be the factorial of $N(p, q)$.  
-Let $\\operatorname{NF}(p, q)$ be the number of factors $p$ in $\\operatorname{Nfac}(p, q)$.
+Let $\\mathrm{Nfac}(p, q)$ be the factorial of $N(p, q)$.  
+Let $\\mathrm{NF}(p, q)$ be the number of factors $p$ in $\\mathrm{Nfac}(p, q)$.
 
-You are given that $\\operatorname{NF}(3,10000) \\bmod 3^{20} = 624955285$.
+You are given that $\\mathrm{NF}(3,10000) \\bmod 3^{20} = 624955285$.
 
-Find $\\operatorname{NF}(61, 10^7) \\bmod 61^{10}$.
+Find $\\mathrm{NF}(61, 10^7) \\bmod 61^{10}$.

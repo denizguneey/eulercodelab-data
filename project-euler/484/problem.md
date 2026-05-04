@@ -7,6 +7,6 @@ The **arithmetic derivative** is defined by
 
 For example, $20^\\prime = 24$.
 
-Find $\\sum \\operatorname{\\mathbf{gcd}}(k,k^\\prime)$ for $1 \\lt k \\le 5 \\times 10^{15}$.
+Find $\\sum \\mathrm{gcd}(k,k^\\prime)$ for $1 \\lt k \\le 5 \\times 10^{15}$.
 
-Note: $\\operatorname{\\mathbf{gcd}}(x,y)$ denotes the greatest common divisor of $x$ and $y$.
+Note: $\\mathrm{gcd}(x,y)$ denotes the greatest common divisor of $x$ and $y$.

@@ -12,5 +12,5 @@ The chart below demonstrates all of the DRS values for $24$.
 <table class="grid center"><tbody><tr><th>Factorisation</th><th>Digital Root Sum</th></tr><tr><td>$2 \times 2 \times 2 \times 3$</td><td>$9$</td></tr><tr><td>$2 \times 3 \times 4$</td><td>$9$</td></tr><tr><td>$2 \times 2 \times 6$</td><td>$10$</td></tr><tr><td>$4 \times 6$</td><td>$10$</td></tr><tr><td>$3 \times 8$</td><td>$11$</td></tr><tr><td>$2 \times 12$</td><td>$5$</td></tr><tr><td>$24$</td><td>$6$</td></tr></tbody></table>
 
 The maximum Digital Root Sum of $24$ is $11$.  
-The function $\\operatorname{mdrs}(n)$ gives the maximum Digital Root Sum of $n$. So $\\operatorname{mdrs}(24)=11$.  
-Find $\\sum \\operatorname{mdrs}(n)$ for $1 \\lt n \\lt 1\\,000\\,000$.
+The function $\\mathrm{mdrs}(n)$ gives the maximum Digital Root Sum of $n$. So $\\mathrm{mdrs}(24)=11$.  
+Find $\\sum \\mathrm{mdrs}(n)$ for $1 \\lt n \\lt 1\\,000\\,000$.

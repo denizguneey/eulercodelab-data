@@ -4,12 +4,12 @@ Here are the records from a busy telephone system with one million users:
 
 <table class="grid" style="margin:0 auto;"><tbody><tr><th>RecNr</th><th width="60" align="center">Caller</th><th width="60" align="center">Called</th></tr><tr><td align="center">$1$</td><td align="center">$200007$</td><td align="center">$100053$</td></tr><tr><td align="center">$2$</td><td align="center">$600183$</td><td align="center">$500439$</td></tr><tr><td align="center">$3$</td><td align="center">$600863$</td><td align="center">$701497$</td></tr><tr><td align="center">$\cdots$</td><td align="center">$\cdots$</td><td align="center">$\cdots$</td></tr></tbody></table>
 
-The telephone number of the caller and the called number in record $n$ are $\\operatorname{Caller}(n) = S\_{2n-1}$ and $\\operatorname{Called}(n) = S\_{2n}$ where $S\_{1,2,3,\\dots}$ come from the "Lagged Fibonacci Generator":
+The telephone number of the caller and the called number in record $n$ are $\\mathrm{Caller}(n) = S\_{2n-1}$ and $\\mathrm{Called}(n) = S\_{2n}$ where $S\_{1,2,3,\\dots}$ come from the "Lagged Fibonacci Generator":
 
 For $1 \\le k \\le 55$, $S\_k = \[100003 - 200003k + 300007k^3\] \\pmod{1000000}$.  
 For $56 \\le k$, $S\_k = \[S\_{k-24} + S\_{k-55}\] \\pmod{1000000}$.
 
-If $\\operatorname{Caller}(n) = \\operatorname{Called}(n)$ then the user is assumed to have misdialled and the call fails; otherwise the call is successful.
+If $\\mathrm{Caller}(n) = \\mathrm{Called}(n)$ then the user is assumed to have misdialled and the call fails; otherwise the call is successful.
 
 From the start of the records, we say that any pair of users $X$ and $Y$ are friends if $X$ calls $Y$ or vice-versa. Similarly, $X$ is a friend of a friend of $Z$ if $X$ is a friend of $Y$ and $Y$ is a friend of $Z$; and so on for longer chains.
 

@@ -12,7 +12,7 @@ At each step, the beaver will do the following according to the bananas it sees 
 For example, if $N \\ge 3$, then the last rule applies to the starting position, so after $1$ step, there are $3$ bananas on the number line, at positions $-1, 0, 1$, with the beaver at position $-2$.  
 Similarly, if $N \\ge 5$, then after $5$ steps, there are $5$ bananas on the number line, at positions $-2,-1,0,1,2$, with the beaver at position $-1$.
 
-Let $\\operatorname{BB}(N)$ be the position of the beaver when the game ends (which can be proved to always happen).  
-You are given $\\operatorname{BB}(1000) = 1499$.
+Let $\\mathrm{BB}(N)$ be the position of the beaver when the game ends (which can be proved to always happen).  
+You are given $\\mathrm{BB}(1000) = 1499$.
 
-Find $\\operatorname{BB}(10^{18})$.
+Find $\\mathrm{BB}(10^{18})$.
