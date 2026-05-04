@@ -1,58 +1,42 @@
 # eulercodelab-data
 
-This repository is a local-first data collection project for Project Euler problem statements and Python solutions. It does not include video rendering, Puppeteer, or FFmpeg workflows.
+A clean local-first dataset for Project Euler problem statements, resources, and Python solutions used by EulerCodeLab.
 
-## Sources
+Project Euler | Python | Markdown | Dataset
 
-Project Euler problem statements are taken from Project Euler.  
-Source: https://projecteuler.net/  
-License: CC BY-NC-SA 4.0
+## Contents
 
-Python solutions are collected from EulerSolve.  
-Source: https://eulersolve.org/
+- Markdown problem statements
+- Python solution files
+- Local image/resources when available
+- Zero-padded problem folders
 
-## Output structure
+## Structure
 
 ```text
 project-euler/
   001/
     problem.md
     solution.py
-  002/
-    problem.md
-    solution.py
-
-metadata/
-  001.json
-  002.json
-
-failed/
-  failed.json
+    resources/
+      images/
 ```
 
-## Usage
+## Example
 
-Default test range:
+Problem 001: [project-euler/001](https://github.com/denizguneey/eulercodelab-data/tree/main/project-euler/001)
 
-```powershell
-node fetch_data.js
-```
+## Attribution
 
-Explicit range in PowerShell:
+- Problem statements are sourced from Project Euler
+- Project Euler: https://projecteuler.net/
+- Python solutions are collected from EulerSolve
+- EulerSolve: https://eulersolve.org/
 
-```powershell
-$env:START_PROBLEM=1
-$env:END_PROBLEM=10
-node fetch_data.js
-```
+## Disclaimer
 
-The script:
+This is an independent educational dataset and is not affiliated with Project Euler. Please respect Project Euler's spirit of learning and problem solving.
 
-- reads Project Euler archive pages for IDs and titles
-- fetches each problem statement from the Project Euler minimal endpoint
-- converts HTML to Markdown with `turndown`
-- fetches the Python solution URL from the EulerSolve problem page
-- saves outputs under padded problem folders such as `project-euler/001/problem.md`
-- continues processing even if an individual problem fails
-- records failures in `failed/failed.json`
-- waits 700-1000 ms between requests
+## License
+
+See LICENSE.
