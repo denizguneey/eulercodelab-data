@@ -32,10 +32,7 @@ Problem 001: [project-euler/001](https://github.com/denizguneey/eulercodelab-dat
 - Project Euler: https://projecteuler.net/
 - Python solutions are collected from EulerSolve
 - EulerSolve: https://eulersolve.org/
-
-## Disclaimer
-
-This is an independent educational dataset and is not affiliated with Project Euler. Please respect Project Euler's spirit of learning and problem solving.
+- This project is independent and is not affiliated with Project Euler.
 
 ## License
 
