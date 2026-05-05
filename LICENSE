@@ -1,6 +1,6 @@
 ISC License
 
-Copyright (c) 2026
+Copyright (c) 2026 Deniz Guney
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -16,12 +16,17 @@ PERFORMANCE OF THIS SOFTWARE.
 
 Third-party content notice
 
-Project Euler problem statements are taken from Project Euler and are licensed
-under CC BY-NC-SA 4.0.
+This repository includes third-party educational content.
+
+Project Euler problem statements are sourced from Project Euler and retain
+their original license and attribution requirements, including CC BY-NC-SA 4.0
+where applicable.
 Source: https://projecteuler.net/
 
-Python solutions are collected from EulerSolve.
+Python solution files are collected from EulerSolve and are attributed to
+EulerSolve.
 Source: https://eulersolve.org/
 
-Please preserve attribution for redistributed content and review the original
-sources for any additional usage terms.
+The ISC License above applies only to repository-level code and project files
+owned by this repository maintainer. Third-party content retains its original
+license, attribution, and usage requirements.
